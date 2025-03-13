@@ -1,6 +1,6 @@
 const FooterSection = () => {
     return (
-        <footer className="relative bg-white">
+        <footer className="relative text-white py-6 px-4 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-1/2 before:h-1/3 before:bg-green-300 before:rounded-full before:blur-3xl before:opacity-50 before:-z-10 after:content-[''] after:absolute after:bottom-0 after:right-0 after:w-1/2 after:h-1/3 after:bg-blue-300 after:rounded-full after:blur-3xl after:opacity-50 after:-z-10">
             {/* Main content section */}
             <div className="max-w-7xl mx-auto px-4 py-12">
                 <div className="text-center mb-10">

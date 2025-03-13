@@ -32,7 +32,7 @@ export default function Hero() {
                     <button className="bg-[#335CFF] hover:bg-blue-700 text-white p-[10px] rounded-[10px] text-sm font-medium w-[110px] h-11">
                         Contact us
                     </button>
-                    <a href="#" className="text-[#525866] hover:text-gray-700 text-sm font-medium">
+                    <a href="#" className="text-sm font-medium bg-[#F5F7FA] p-2.5 text-[#525866]">
                         Partner with us
                     </a>
                 </div>
