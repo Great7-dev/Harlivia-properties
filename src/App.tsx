@@ -1,10 +1,10 @@
-import './App.css'
-import FAQSection from './components/faq-section'
-import Features from './components/Features'
-import FooterSection from './components/Footer'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import ValueProposition from './components/SecondFeatures'
+import "./App.css";
+import Features from "./components/Features/Features";
+import Header from "./components/Navbar/Header";
+import Hero from "./components/Hero/Hero";
+import ValueProposition from "./components/Features/SecondFeatures";
+import FAQSection from "./components/Faq/faq-section";
+import FooterSection from "./components/Footer/Footer";
 // import HartiviaSection from './components/SecondFeatures'
 
 export default function Home() {
@@ -17,6 +17,5 @@ export default function Home() {
       <FAQSection />
       <FooterSection />
     </main>
-  )
+  );
 }
-
